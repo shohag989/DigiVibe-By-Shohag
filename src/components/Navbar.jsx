@@ -41,7 +41,7 @@ const Navbar = () => {
       }`}
     >
       <nav
-        className="mx-auto flex h-[72px] max-w-[1600px] items-center justify-between gap-6 px-4 sm:h-[92px] sm:px-8 lg:px-12 xl:px-16"
+        className="mx-auto flex h-[72px] max-w-[1600px] items-center justify-between gap-6 px-4 sm:h-[92px] sm:px-8 lg:px-16 xl:px-24"
         aria-label="Main"
       >
         <a

@@ -3,7 +3,7 @@ import React from 'react';
 const CtaSection = () => {
   return (
     <section
-      className="w-full bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] px-4 py-16 sm:px-8 lg:px-12 xl:px-16 xl:py-24"
+      className="w-full bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] px-4 py-16 sm:px-8 lg:px-16 xl:px-24 xl:py-24"
       aria-labelledby="cta-heading"
     >
       <div className="mx-auto flex max-w-[1600px] flex-col items-center gap-10 text-center">
