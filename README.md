@@ -4,20 +4,16 @@ A modern and fully responsive **digital tools marketplace** built with **React.j
 
 This assignment was crafted with a **clean SaaS-style UI**, meaningful content, and a strong focus on **real-world frontend architecture and state management**.
 
----
 
 ## 🌐 Live Preview
 <img alt="DigiVibe Banner"  src="https://github.com/shohag989/DigiVibe-By-Shohag/blob/master/Cover.jpg">
 
 🔗 **Live Website**
-*[Vercel live link here](https://digivibe-byshohag.vercel.app/)*
+*(https://digivibe-byshohag.vercel.app/)*
 
-🔗 **[GitHub Repository](https://github.com/shohag989/DigiVibe-By-Shohag.git)**
+🔗 **GitHub Repo**
+*(https://github.com/shohag989/DigiVibe-By-Shohag.git)*
 
-📸 **UI Preview**
-*Add screenshot or GIF preview here*
-
----
 
 ## 💡 About the Project
 
@@ -123,7 +119,7 @@ User interactions are enhanced with instant notifications for:
 
 ```bash
 # Clone repository
-git clone <your-repo-link>
+git clone <[your-repo-link](https://github.com/shohag989/DigiVibe-By-Shohag.git)>
 
 # Go into project folder
 cd digital-tools-buying-website
@@ -206,9 +202,9 @@ Through this project, I improved my skills in:
 ## 👨‍💻 Author
 
 **Shohag**
-🎓 CSE Student
-💻 MERN Stack Learner
-🚀 Building modern web applications with clean UI
+*🎓 CSE Student
+*💻 MERN Stack Learner
+*🚀 Building modern web applications with clean UI
 
 * GitHub: *https://github.com/shohag989*
 * LinkedIn: *http://linkedin.com/in/dev-shohag*
