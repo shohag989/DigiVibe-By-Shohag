@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay, faWandMagicSparkles } from '@fortawesome/free-solid-svg-icons';
-import heroBanner from '../assets/hero-banner.png';
+import heroBanner from '../assets/banner image.jpg';
 
 /**
  * Header (node 2:335) — Figma: row gap 60px, padding 60px 200px;
@@ -57,7 +57,6 @@ const Banner = () => {
               Explore Products
             </a>
 
-            {/* Secondary: 1px gradient stroke, inner h 52 − 2px border = 50px content; icon 20×20, gap 10px */}
             <div className="rounded-full bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] p-px">
               <button
                 type="button"
@@ -74,18 +73,14 @@ const Banner = () => {
           </div>
         </div>
 
-        {/* Hero image: 500 × 590, radius 8 */}
+        {/* Hero image: 500 × 590 container for proper layout, plain scaling */}
         <div className="relative w-full max-w-[500px] shrink-0 lg:mx-0 lg:w-[500px]">
-          <div className="overflow-hidden rounded-[8px]">
-            <img
-              src={heroBanner}
-              alt="Creative workspace with laptop and design tools"
-              className="aspect-[500/590] h-auto w-full max-w-[500px] object-cover lg:aspect-auto lg:h-[590px] lg:w-[500px]"
-              width={500}
-              height={590}
-              loading="eager"
-            />
-          </div>
+          <img
+            src={heroBanner}
+            alt="Creative workspace with laptop and design tools"
+            className="w-full h-auto"
+            loading="eager"
+          />
         </div>
       </div>
     </section>
