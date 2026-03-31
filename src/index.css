@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer utilities {
+  .font-manrope {
+    font-family: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+html {
+  color-scheme: light;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  background: #ffffff;
+  color: #627382;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Figma landing: typography is controlled by Tailwind on each block — avoid global h1/h2 overrides */
+#root h1,
+#root h2,
+#root h3,
+#root h4,
+#root p {
+  margin: 0;
+}
+
+:root {
+  --figma-gradient: linear-gradient(88deg, #4f39f6 0%, #9514fa 100%);
+  --figma-text: #101727;
+  --figma-muted: #627382;
+  --figma-border: #f2f2f2;
+  --ease-out-expo: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Scroll-driven entrance */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(1.25rem);
+  filter: blur(0px);
+  transition:
+    opacity 0.7s var(--ease-out-expo),
+    transform 0.7s var(--ease-out-expo);
+}
+
+.reveal-on-scroll--show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-on-scroll {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+code,
+.counter {
+  font-family: ui-monospace, Consolas, monospace;
+  display: inline-flex;
+  border-radius: 4px;
+  color: #08060d;
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: #f4f3ec;
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create ATS-friendly resumes quickly.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "file",
+    "image": "Resume Builder Pro.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Builder",
+    "description": "Showcase your work with stunning web galleries.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": [
+      "Custom domains",
+      "Drag-and-drop editor",
+      "Mobile responsive"
+    ],
+    "icon": "layout",
+    "image": "Portfolio Builder.png"
+  },
+  {
+    "id": 3,
+    "name": "Logo Generator",
+    "description": "Instant high-resolution branding for your business.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best value",
+    "tagType": "Sale",
+    "features": [
+      "Vector files (SVG)",
+      "Social media kit",
+      "Full copyrights"
+    ],
+    "icon": "palette",
+    "image": "Logo Generator.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Image Tool",
+    "description": "Generate photorealistic art from text prompts.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "trending",
+    "tagType": "Trending",
+    "features": [
+      "4K resolution",
+      "Style presets",
+      "Commercial license"
+    ],
+    "icon": "image",
+    "image": "AI Image Tool.png"
+  },
+  {
+    "id": 5,
+    "name": "Invoice Tool",
+    "description": "Professional billing and expense tracking.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "free trial",
+    "tagType": "Promo",
+    "features": [
+      "Automated reminders",
+      "Multi-currency support",
+      "Stripe integration"
+    ],
+    "icon": "credit-card",
+    "image": "Invoice Tool.png"
+  },
+  {
+    "id": 6,
+    "name": "SEO Tool",
+    "description": "Rank higher on search engines with keyword insights.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "pro",
+    "tagType": "Elite",
+    "features": [
+      "Backlink analysis",
+      "Competitor tracking",
+      "Site audit reports"
+    ],
+    "icon": "search",
+    "image": "SEO Tool.png"
+  },
+  {
+    "id": 7,
+    "name": "Analytics Dashboard",
+    "description": "Real-time data visualization for your traffic.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "enterprise",
+    "tagType": "Business",
+    "features": [
+      "Live user tracking",
+      "Custom API access",
+      "Weekly email reports"
+    ],
+    "icon": "bar-chart",
+    "image": "Analytics Dashboard.png"
+  },
+  {
+    "id": 8,
+    "name": "Social Scheduler",
+    "description": "Automate your social media presence.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "time saver",
+    "tagType": "Recommended",
+    "features": [
+      "Bulk scheduling",
+      "AI caption writer",
+      "Engagement analytics"
+    ],
+    "icon": "calendar",
+    "image": "Social Scheduler.png"
+  },
+  {
+    "id": 9,
+    "name": "Video Editor Online",
+    "description": "Create professional clips with cloud rendering.",
+    "price": 24,
+    "period": "monthly",
+    "tag": "beta",
+    "tagType": "Update",
+    "features": [
+      "4K video export",
+      "Stock footage library",
+      "AI background removal"
+    ],
+    "icon": "video",
+    "image": "video-editing.png"
+  }
+]
