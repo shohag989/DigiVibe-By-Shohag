@@ -9,7 +9,7 @@ import logoDigiVibe from '../assets/logo-digivibe.svg';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-[#101727] px-4 pb-8 pt-16 sm:px-8 xl:px-[200px] xl:pb-8 xl:pt-[120px]">
+    <footer className="w-full bg-[#101727] px-4 pb-8 pt-16 sm:px-8 lg:px-12 xl:px-16 xl:pb-10 xl:pt-24">
       <div className="mx-auto max-w-[1600px]">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-5 lg:gap-8">
           <div className="lg:col-span-1">

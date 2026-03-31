@@ -22,7 +22,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="w-full bg-white px-4 py-16 sm:px-8 xl:px-[200px]"
+      className="w-full bg-white px-4 py-16 sm:px-8 lg:px-12 xl:px-16"
       aria-labelledby="testimonials-heading"
     >
       <div className="mx-auto max-w-[1600px]">

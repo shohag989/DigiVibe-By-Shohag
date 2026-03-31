@@ -69,7 +69,7 @@ const Stats = () => {
   return (
     <section
       id="stats"
-      className="w-full bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] px-4 py-12 sm:px-8 xl:px-[200px] xl:py-[60px]"
+      className="w-full bg-[linear-gradient(88deg,#4f39f6_0%,#9514fa_100%)] px-4 py-12 sm:px-8 lg:px-12 xl:px-16 xl:py-20"
       aria-label="Platform statistics"
     >
       <div className="mx-auto flex max-w-[1600px] flex-col items-stretch gap-10 sm:flex-row sm:items-center sm:justify-between sm:gap-0">

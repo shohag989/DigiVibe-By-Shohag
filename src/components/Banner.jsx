@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="w-full bg-white px-4 py-10 sm:px-8 xl:px-[200px] xl:py-[60px]"
+      className="w-full bg-white px-4 py-10 sm:px-8 lg:px-12 xl:px-16 xl:py-16"
     >
       <div className="mx-auto flex w-full max-w-[1600px] flex-col items-stretch gap-10 lg:flex-row lg:items-center lg:gap-[60px]">
         {/* Left: column gap 32px (Figma layout_HKSOXH) */}
